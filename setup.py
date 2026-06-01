@@ -26,7 +26,7 @@ with io.open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='yfinance',
+    name='yahoo-syn',
     version=version,
     description='Download market data from Yahoo! Finance API',
     long_description=long_description,
